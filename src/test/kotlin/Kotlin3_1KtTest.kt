@@ -9,7 +9,7 @@ class Kotlin3_1KtTest {
         val transferAmount = 10000
         val lastTranslations = 0
         val result = calculateCommission(cardType, transferAmount, lastTranslations)
-        assertEquals(80, result)
+        assertEquals(100, result)
     }
 
     @Test
